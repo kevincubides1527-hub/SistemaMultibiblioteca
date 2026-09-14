@@ -1,9 +1,9 @@
-public class Ususario {
+public class Usuario {
     private String nombre;
     private String email;
     private String rol;
 
-   public Ususario(String nombre, String email, String rol) {
+   public Usuario(String nombre, String email, String rol) {
         this.nombre = nombre;
         this.email = email;
         this.rol = rol;
@@ -16,6 +16,7 @@ public class Ususario {
 
     public String getRol() { return rol; }
     public void setRol(String rol) { this.rol = rol; }
+    
 
 
     
